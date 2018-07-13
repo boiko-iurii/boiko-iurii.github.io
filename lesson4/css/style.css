@@ -21,8 +21,6 @@ body {
 	width: 620px;
 	height: 635px;
 	position: absolute;
-	padding-top: 390px;
-	padding-left: 363px;
 	z-index: 1;
 	transition: all 0.2s ease-in-out;
 }
@@ -37,32 +35,24 @@ body {
 	background-color: #ff0000;
 	top: 147px;
 	left: 129px;
-	padding-top: 375px;
-	padding-left: 352px;
 }
 
 .square_green {
 	background-color: #54ff00;
 	top: 207px;
 	left: 606px;
-	padding-top: 416px;
-	padding-left: 365px;
 }
 
 .square_blue {
 	background-color: #0030ff;
 	top: 633px;
 	left: 113px;
-	padding-top: 409px;
-	padding-left: 392px;
 }
 
 .square_yellow {
 	background-color: #ffe400;
 	top: 724px;
 	left: 661px;
-	padding-top: 390px;
-	padding-left: 363px;
 }
 
 .circle {
@@ -70,7 +60,10 @@ body {
 	height: 202px;
 	border-radius: 50%;
 	background-color: #2c3e50;
-	position: relative;
+	position: absolute;	
+	bottom: 43px;
+	right: 55px;
+	
 }
 
 .circle:after {
