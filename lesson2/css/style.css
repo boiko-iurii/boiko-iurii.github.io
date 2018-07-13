@@ -1,0 +1,307 @@
+
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	color: #040404;
+}
+
+* {
+	/*outline: 1px solid red;*/
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul {
+	/*font-size: 0;*/
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.wrapper {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+/*_________header_________*/
+
+.header {
+	border-bottom: 2px solid #acacac;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.logo {
+}
+
+.logo a {
+
+}
+
+.logo h1 {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.logo h1 span {
+	display: block;
+	font-weight: 400;
+}
+
+.menu {
+
+}
+
+.menu__list {
+	font-size: 0;
+}
+
+.list__item {
+	margin: 0;
+}
+
+.list__item a {
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	font-size: 18px;
+}
+
+.list__item a:hover, .active {
+	background-color: #b7b7b7;
+}
+
+
+/*_________content_________*/
+.content {
+	padding: 97px 0;
+
+}
+
+.content__info {
+
+}
+
+.info__photo {
+	font-size: 0;
+	margin-bottom: 57px;
+}
+
+.info__data p {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 2em;
+}
+
+.info__data p span {
+	font-weight: 400;
+}
+
+.study__list,
+.work__list {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0;
+}
+
+.study__card {
+	width: calc(100%/3 - 45px);
+}
+
+.study__card:nth-child(1) .card__img {
+	background: url("../img/school.png") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.study__card:nth-child(2) .card__img {
+	background: url("../img/ntu-khpi.jpg") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.study__card:nth-child(3) .card__img {
+	background: url("../img/man-with-bag.png") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.card__img {
+	height: 220px;
+	width: 90%;
+	margin: 0 auto 10px;
+}
+
+.card__text {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.card__text h4 {
+	font-size: 20px;
+	text-align: center;
+	line-height: 2.5em;
+	position: relative;
+}
+
+.card__text h4:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 25px);
+	width: 50px;
+	height: 1px;
+	background-color: lightslategrey;
+}
+
+.card__text p {
+	margin-top: 12px;
+	text-align: justify;
+}
+
+.card__text p:first-letter {
+	font-size: 1.5em;
+}
+
+.work__card {
+	width: calc(100%/4 - 30px);
+}
+
+.work__card .card__text {
+	font-size: 16px;
+}
+
+.work__card:nth-child(1) .card__img {
+	background: url("../img/gruzovik.jpg") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.work__card:nth-child(2) .card__img {
+	background: url("../img/internet.jpg") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.work__card:nth-child(3) .card__img {
+	background: url("../img/helicopter.png") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.work__card:nth-child(4) .card__img {
+	background: url("../img/relax.jpg") center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.data__inner {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+
+.data__network {
+	width: 45%;
+}
+
+.network__list {
+}
+
+.network__item {
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.network__item a {
+
+}
+
+.network__item:nth-child(1) i {
+	color: #2caff1;
+}
+
+.network__item:nth-child(2) i {
+	color: #2ca72c;
+}
+
+.network__item:nth-child(3) i {
+	color: #565fd4;
+}
+
+.network__item:nth-child(4) i {
+	color: #3f8cef;
+}
+
+.network__item:nth-child(5) i {
+	color: mediumpurple;
+}
+
+.network__item span {
+	vertical-align: middle;
+	margin-left: 16px;
+}
+
+
+
+.data__form {
+	width: 45%;
+}
+
+.data__form input {
+	width: 100%;
+	height: 33px;
+	margin-bottom: 12px;
+	padding: 0 10px;
+}
+
+.data__form input[type=submit] {
+	margin-bottom: 0;
+}
+
+
+.data__form input[type=text]:focus,
+.data__form input[type=number]:focus,
+.data__form textarea:focus {
+	outline: 2px solid darkgrey;
+	background-color: rgba( 169, 169, 169, 0.05);
+}
+
+.data__form #textarea {
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+/*_________footer_________*/
+
+.footer {
+	text-align: center;
+	padding: 57px 0;
+	font-size: 30px;
+}
