@@ -14,8 +14,9 @@ body {
 	height: 1500px;
 	max-width: 1366px;
 	position: relative;
-	top: calc(50vh - 1500px/2);
-	left: calc(50vw - 1366px/2);
+/* 	top: calc(50vh - 1500px/2);
+	left: calc(50vw - 1366px/2); */
+	margin: 0 auto;
 }
 
 .square {
