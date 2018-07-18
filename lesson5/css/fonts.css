@@ -1,4 +1,4 @@
-// Lobster
+
 
 @font-face {
 	font-family: 'Lobster';
@@ -10,7 +10,6 @@
 }
 
 
-// OpenSans
 @font-face {
 	font-family: 'OpenSans';
 	src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
@@ -29,7 +28,7 @@
 	font-style: normal;
 }
 
-// GalanoGrotesqueAlt-ExtraBold
+
 @font-face {
 	font-family: 'GalanoGrotesqueAlt';
 	src: url('../fonts/GalanoGrotesqueAlt/GalanoGrotesqueAlt-ExtraBold.otf');
