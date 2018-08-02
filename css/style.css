@@ -146,6 +146,15 @@ lessons__item_jennifer
 .lessons__item_jennifer {
 	background-color: #0054a4;
 	width: 100%;
+	text-align: center;
+}
+
+.lessons__item_jennifer a {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	font-size: 21px;
+	line-height: 1em;
 }
 
 .lessons__item a {
