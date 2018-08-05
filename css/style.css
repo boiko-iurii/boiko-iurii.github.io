@@ -143,6 +143,7 @@ lessons__item_jennifer
 .lessons__item {
 	margin: 30px 0;
 }
+
 .lessons__item_jennifer {
 	background-color: #0054a4;
 	width: 100%;
@@ -160,6 +161,13 @@ lessons__item_jennifer
 .lessons__item a {
 	border: 1px solid grey;
 	padding: 10px;
+}
+
+
+.lessons__item_js {
+	background-color: #27a527;
+	width: 100%;
+	text-align: center;
 }
 
 
